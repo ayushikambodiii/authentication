@@ -1,0 +1,16 @@
+input[type=button]{
+  height: 30px;
+  width: 50px;
+  border-radius: 4px;
+}
+input[type=text]{
+  width: 340px;
+  height: 45px;
+  border-radius: 8px;
+}
+.calc{
+  border: 1px solid black;
+  margin: 0 585px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.721);
+}
