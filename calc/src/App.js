@@ -6,6 +6,7 @@ import Recursionn from './Recursionn';
 import Recur from './Recur';
 import Upload from './Upload';
 import NewsApp from './NewsApp';
+import Task from './Task';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Recursionn/> */}
       {/* <Recur/> */}
       {/* <Upload/> */}
-      <NewsApp/>
+      {/* <NewsApp/> */}
+      <Task/>
     </div>
   );
 }

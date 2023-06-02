@@ -1,0 +1,54 @@
+ /* import React, { useCallback, useState } from 'react';
+ import './App.css';
+ import { LoginSocialGoogle, LoginSocialFacebook } from "reactjs-social-login";
+ import {
+  GoogleLoginButton,
+   FacebookLoginButton,
+ } from "react-social-login-buttons";
+
+ const App = () => {
+
+   const [isFaceBookData, setIsFaceBookData] = useState("");
+   const [isopen, setIsopen] = useState(false);
+
+  return (
+    <>
+      <LoginSocialGoogle
+        client_id={
+          "692552795977-jdobup53n4ej3m0aubbqu5f36t9uqo3m.apps.googleusercontent.com"
+        }
+        scope="openid profile email"
+        discoveryDocs="claims_supported"
+        access_type="offline"
+        onResolve={({ data }) => {
+          console.log("goggleee", data);
+        }}
+        onReject={(err) => {
+          console.log(err);
+        }}
+      >
+        <GoogleLoginButton />
+      </LoginSocialGoogle>
+
+       <LoginSocialFacebook
+         appId={"177847918485141"}
+       autoLoad={true}
+       fieldsProfile={
+         "id,first_name,last_name,middle_name,name,name_format,picture,short_name,email,gender"
+       }
+       onResolve={({ data }) => {
+         console.log("---------", data);
+         setIsFaceBookData(data);
+         setIsopen(true);
+       }}
+       onReject={(err) => {
+         console.log(err);
+       }}
+     >
+       <FacebookLoginButton />
+     </LoginSocialFacebook>
+    </>
+   );
+ };
+
+export default App; */

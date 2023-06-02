@@ -82,3 +82,17 @@ const NewsApp = () => {
 };
 
 export default NewsApp;
+// const mergedArray = object1.map((item1) => {
+//     const matchedItem2 = object2.find((item2) => item2.id === item1.id);
+//     const matchedItem3 = object3.find((item3) => item3.id === item1.id);
+//     if (matchedItem2 && matchedItem3) {
+//          return { ...item1, ...matchedItem2, ...matchedItem3 };
+//     } else if (matchedItem2) {
+//          return { ...item1, ...matchedItem2 };
+//     } else if (matchedItem3) {
+//          return { ...item1, ...matchedItem3 };
+//     }
+//     return item1;
+// });
+// console.log("mergedArray",mergedArray);
+
